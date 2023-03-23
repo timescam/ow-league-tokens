@@ -8,4 +8,4 @@ COPY . .
 
 RUN pip install -r ./requirements.txt
 
-CMD [ "python", "./src/main.py", "nomenu", "--owl", "--owc", "--ids", $IDS ]
+CMD [ "python", "./src/main.py", "nomenu", "--owl", "--owc", "--ids $IDS" ]
