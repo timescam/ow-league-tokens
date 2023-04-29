@@ -8,5 +8,5 @@ COPY . .
 
 RUN pip install -r ./requirements.txt
 
-CMD exec python ./src/main.py nomenu
+CMD exec python ./src/main.py --nomenu
 # --owl --owc --ids $IDS
